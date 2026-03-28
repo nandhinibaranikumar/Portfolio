@@ -1,3 +1,5 @@
+const baseUrl = import.meta.env.BASE_URL;
+
 export const portfolioData = {
   site: {
     title: "Nandhini Sri | Portfolio",
@@ -24,7 +26,7 @@ export const portfolioData = {
       "My goal is to grow as a software developer while contributing innovative and impactful solutions in the tech industry.",
     location: "Chennai, India",
     email: "nandhinibaranikumar@gmail.com",
-    resumeUrl: "/resume.pdf",
+    resumeUrl: `${baseUrl}resume.pdf`,
     availability:
       "I am currently looking for opportunities to grow as a developer and open to internships, collaborations, and discussions.",
     languages: [
@@ -142,31 +144,31 @@ export const portfolioData = {
       title: "Digital Application Fundamentals - STEM",
       issuer: "NASSCOM",
       year: "2026",
-      credentialUrl: "/certificates/digital-application-fundamentals.pdf",
+      credentialUrl: `${baseUrl}certificates/digital-application-fundamentals.pdf`,
     },
     {
       title: "Google Cloud - Generative AI",
       issuer: "NASSCOM",
       year: "2025",
-      credentialUrl: "/certificates/google-cloud-generative-ai.pdf",
+      credentialUrl: `${baseUrl}certificates/google-cloud-generative-ai.pdf`,
     },
     {
       title: "Python Certification",
       issuer: "NIIT Anna Nagar",
       year: "2025",
-      credentialUrl: "/certificates/python-certificate.pdf",
+      credentialUrl: `${baseUrl}certificates/python-certificate.pdf`,
     },
     {
       title: "MySQL Certification",
       issuer: "NIIT Anna Nagar",
       year: "2025",
-      credentialUrl: "/certificates/mysql-certificate.pdf",
+      credentialUrl: `${baseUrl}certificates/mysql-certificate.pdf`,
     },
     {
       title: "Java Certification",
       issuer: "NIIT Anna Nagar",
       year: "2026",
-      credentialUrl: "/certificates/java-certificate.pdf",
+      credentialUrl: `${baseUrl}certificates/java-certificate.pdf`,
     },
   ],
 } as const;
